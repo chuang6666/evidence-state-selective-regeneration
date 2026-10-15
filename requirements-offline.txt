@@ -1,0 +1,3 @@
+# The portable offline replay and scorer tests use only the Python standard library.
+# Tested Python version is recorded in provenance/candidate_validation.json.
+# No third-party packages are required for these entry points.

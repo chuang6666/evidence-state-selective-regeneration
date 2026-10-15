@@ -1,0 +1,111 @@
+{
+  "authorization": "User confirmed author/group approval for own code, frozen predictions and numeric derivatives on 2026-10-15.",
+  "datasets": {
+    "dev1096_controlled": 1096,
+    "locked1341": 1341,
+    "m3vqa13125": 13125
+  },
+  "generation_executed": false,
+  "original_input_hashes": {
+    "experiments/mmqa_g0_20_endpoint/g0_20_final_predictions.jsonl": {
+      "bytes": 321115,
+      "sha256": "b5c8acaca0912eb5b063319d2ce4ea89a0c4b57de52e27fbcdb461fc57a7ca77"
+    },
+    "experiments/mmqa_g0_20_endpoint/g0_20_selected_qids.jsonl": {
+      "bytes": 52298,
+      "sha256": "5272837d1e9d15e62620e3f0dbaed49904e31c52876a50c3882d03425cb86208"
+    },
+    "experiments/mmqa_g0_20_endpoint/g0_20_statistics.json": {
+      "bytes": 2189,
+      "sha256": "6cf2dcbdb546e3b5f7d980f9ec7fa7cb17b98d4e70b0ad31761d8bd512e61394"
+    },
+    "experiments/mmqa_instability20_endpoint/analyze_selector_gap.py": {
+      "bytes": 5466,
+      "sha256": "001595851b5c17b3f20a856e4b91731d8c1ce09327c589272509d3ae020a3043"
+    },
+    "experiments/mmqa_instability20_endpoint/final_predictions.jsonl": {
+      "bytes": 332754,
+      "sha256": "16aa5d15f8ad1f5e101174af8290e230cdb183a57b34207e7ead538b2ccadfdc"
+    },
+    "experiments/mmqa_instability20_endpoint/selected_qids.jsonl": {
+      "bytes": 59260,
+      "sha256": "d5b60373dd5cd156e2f04068a532d4ec35b1e9e880d175ab60d72c51255413b9"
+    },
+    "experiments/mmqa_instability20_endpoint/statistical_comparisons.json": {
+      "bytes": 1955,
+      "sha256": "e30ddbbc55d5d7afc3782614ad7983486c6af27926faf8c36d14327b34f7062b"
+    },
+    "experiments/paper_statistical_audit_20261004/b3_vs_g0_paired_uncertainty.json": {
+      "bytes": 5605,
+      "sha256": "2e9f9555d8dfb24aa1238aafa423c279730dd6bc8d43b083d841762fcb2d47a2"
+    },
+    "experiments/paper_statistical_audit_20261004/scripts/audit_calculations.py": {
+      "bytes": 27745,
+      "sha256": "ad68c5549c747e10491810f16ba29594d6b0f987cd39f353b60fb3f2437dd0a4"
+    },
+    "outputs/m3vqa_clean_v2_one_time_official_gold_eval_v1/m3vqa_clean_v2_one_time_official_gold_eval_details_v1.jsonl": {
+      "bytes": 10329972,
+      "sha256": "903f2a869a56a94b99ee36eeceaabcf4d2f50ba18d422140eee498a362accd63"
+    },
+    "outputs/m3vqa_dataset_adapter_v1_1/m3vqa_external_zero_shot_eval_only_v1_1.jsonl": {
+      "bytes": 20484290,
+      "sha256": "99534fdf1bc8c43c7228a1b8e19d5dbb438a62c666af1e1364293a38c25685bf"
+    },
+    "outputs/m3vqa_random20_seed20260822_one_time_official_gold_eval_v1/m3vqa_random20_seed20260822_official_eval_per_qid_v1.jsonl": {
+      "bytes": 6787613,
+      "sha256": "be7d80a0b5797bd572b1900487c5bb27df1c0724a7c236ee0fca98dca0e249e8"
+    },
+    "outputs/mmqa_clean_risk_v2_dev1096_answer_risk_oof_v1/clean_v2_oof_metrics_v1.json": {
+      "bytes": 4725,
+      "sha256": "a31b007dfa1f2d748d7427e2ae6c2fc00960eee9a1707deda55facd8e513d019"
+    },
+    "outputs/mmqa_clean_risk_v2_dev1096_expected_natural_explanatory_ablation_v1/dev1096_all_explanatory_variants_oof_predictions_v1.jsonl": {
+      "bytes": 1227044,
+      "sha256": "e3ba7cca78f34ef7735cd32430aac2bda606babb3c22fb245f68fa81930bca17"
+    },
+    "outputs/mmqa_clean_risk_v2_dev1096_expected_natural_explanatory_ablation_v1/explanatory_ablation_metrics_v1.json": {
+      "bytes": 6801,
+      "sha256": "13b76b6dc4b763f7ff26e3fd029329f50fe0dd83d0b1cf5fe89d26353ce609d5"
+    },
+    "outputs/mmqa_clean_risk_v2_dev1096_expected_natural_explanatory_ablation_v1/explanatory_ablation_pairwise_bootstrap_v1.json": {
+      "bytes": 8559,
+      "sha256": "5aea059ca4910dc601130219fe616c549fd075ff2dcbdd59fb1a9c41e7689b29"
+    },
+    "outputs/mmqa_clean_risk_v2_final_full_dev_locked_selection_v1/locked1341_clean_b3_top269_selection_v1.jsonl": {
+      "bytes": 94795,
+      "sha256": "dce4fff6218f321db71950ed9d21128ec24d512be162e73b05c707dafe4a74be"
+    },
+    "outputs/mmqa_clean_risk_v2_one_time_official_eval_v1/mmqa_clean_risk_v2_one_time_official_eval_details_v1.jsonl": {
+      "bytes": 1642609,
+      "sha256": "8d25ee08ca6752f87bded4fa272a73b3d02ed661ac7d1876d57e194d972e91a6"
+    },
+    "outputs/mmqa_clean_risk_v2_one_time_official_eval_v1/mmqa_clean_risk_v2_significance_v1.json": {
+      "bytes": 8245,
+      "sha256": "af5d98c2baf191c973af609b5c9045d58e4900f2c97dd657e80032915bad50a8"
+    },
+    "outputs/mmqa_dev1096_a0_a4_a6_selector_endpoint_ablation_v1/selector_endpoint_official_gold_eval_details_v1.jsonl": {
+      "bytes": 642644,
+      "sha256": "399d7d49e8f8861016fa3552ef4bd6b03d9b5243ac90db8c8771e90949a70325"
+    },
+    "outputs/mmqa_dev1096_a0_a4_a6_selector_endpoint_ablation_v1/selector_endpoint_pairwise_significance_v1.json": {
+      "bytes": 4092,
+      "sha256": "e9239546177d8d08762a82c480d60a1f54af6182c9293720003e1c8aeee5eea4"
+    },
+    "outputs/mmqa_vc20_selection_freeze_v1_1/vc20_qid_tiebreak_selected269_frozen_v1.jsonl": {
+      "bytes": 81463,
+      "sha256": "ed0940a57efd24c5e95bdb328df329d83b2cc0e6df632cca2cf9214179f0e5ac"
+    },
+    "run_mmqa_clean_risk_v2_dev1096_expected_natural_explanatory_ablation_v1.py": {
+      "bytes": 47198,
+      "sha256": "baf1e4e3ec792a0f2b8e7f9bf96b1b3a2cdc5e9fad7d290d41cdc0c77eeb89f8"
+    },
+    "run_mmqa_transition_answer_risk_oof_v1_1.py": {
+      "bytes": 13220,
+      "sha256": "beecd7053bd41ca122930d15075b1ff151550b8a12b9c80f44548db45d8fdff2"
+    }
+  },
+  "projection": "Only QID and frozen method answer values; no questions, evidence, Gold, images, request headers, raw provider responses or weights.",
+  "references_bundled": false,
+  "references_local_only": true,
+  "training_executed": false
+}

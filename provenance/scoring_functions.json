@@ -1,0 +1,146 @@
+[
+  {
+    "adaptation": "Original function/constant source segments, with standalone stdlib imports and explanatory module header.",
+    "candidate_path": "evidence_state_repro/mmqa_dev_historical.py",
+    "nodes": [
+      {
+        "body_sha256": "96b01043bc552f8f67b3aff477fa6213f73984ac6057d05c3ca2c947592b4e92",
+        "name": "safe_text",
+        "source_end_line": 66,
+        "source_start_line": 65
+      },
+      {
+        "body_sha256": "b2693f2b030e14da5f3badd96a15a8a46680112ede6c6e442c088271a8894574",
+        "name": "norm",
+        "source_end_line": 75,
+        "source_start_line": 69
+      },
+      {
+        "body_sha256": "d4d7328f5600d9149cf8b7a3e1527ae3e60b0f792f48ca526225d29a073e2467",
+        "name": "tokens",
+        "source_end_line": 79,
+        "source_start_line": 78
+      },
+      {
+        "body_sha256": "e937ce186b79c93ed904d43dedb4b4f429a04ed4d9e8fec8c4d5657f11f886bb",
+        "name": "token_f1",
+        "source_end_line": 94,
+        "source_start_line": 82
+      },
+      {
+        "body_sha256": "ec78bd39a44dc8f625b4416c06d0aef42a73bbda71ee2f77808cf5343854c847",
+        "name": "extract_answers",
+        "source_end_line": 926,
+        "source_start_line": 910
+      },
+      {
+        "body_sha256": "cc1f481e2b763b9b75b5e941d640a96cd575e910299e0322c1e927f43b9c2692",
+        "name": "score_one",
+        "source_end_line": 953,
+        "source_start_line": 950
+      }
+    ],
+    "source_project_relative": "run_mmqa_v6_1_topology_routed_raw_visual.py",
+    "source_sha256": "cad2d89ffaa3478b31b71c618143c5cb2d2eec191ede9df39d5d504a559d6668"
+  },
+  {
+    "adaptation": "Original function/constant source segments, with standalone stdlib imports and explanatory module header.",
+    "candidate_path": "evidence_state_repro/mmqa_endpoint_historical.py",
+    "nodes": [
+      {
+        "body_sha256": "c6150a9930380630dea64f3394390fb03f4f626b74a8dd3733efd82a18d86fd9",
+        "name": "stringify_answer",
+        "source_end_line": 223,
+        "source_start_line": 209
+      },
+      {
+        "body_sha256": "bcb34a47db0a626000cff78438e9753eaafc3d4f6d7df715a2e9a62e2aa1d056",
+        "name": "extract_gold_answers",
+        "source_end_line": 241,
+        "source_start_line": 226
+      },
+      {
+        "body_sha256": "ec9ea8e7c8ea50ca2608ac3796f8690c9c76b95d35aa69c09fa3b902efc3ef1d",
+        "name": "normalize_answer",
+        "source_end_line": 250,
+        "source_start_line": 244
+      },
+      {
+        "body_sha256": "00c626e5d1d4c71316c13398baae10a9b2855bb66f7091196fc6805fa7c20b8f",
+        "name": "exact_match",
+        "source_end_line": 254,
+        "source_start_line": 253
+      },
+      {
+        "body_sha256": "61af464bb09651656766285d8dbf47f6e0fe13e798bdf084278c59d9d31fa875",
+        "name": "token_f1",
+        "source_end_line": 270,
+        "source_start_line": 257
+      },
+      {
+        "body_sha256": "721f447e20f6bfffc14f433a6bb1dde6daf9b652038e3baf86e55f11a9657fa9",
+        "name": "best_score",
+        "source_end_line": 276,
+        "source_start_line": 273
+      }
+    ],
+    "source_project_relative": "audit_mmqa_v3_locked1341_frozen_boundary_v1_1.py",
+    "source_sha256": "16c3bb79bf93db73381977a2a032f6c54771f7bbf7e1ee19cb20d4713a87c85b"
+  },
+  {
+    "adaptation": "Original function/constant source segments, with standalone stdlib imports and explanatory module header.",
+    "candidate_path": "evidence_state_repro/m3_frozen.py",
+    "nodes": [
+      {
+        "body_sha256": "0e24a6f676702c42198a1a3685b9bcd7ce0e2ce5b962203b2c58c536b1c281c7",
+        "name": "DIGIT_MAP",
+        "source_end_line": 62,
+        "source_start_line": 45
+      },
+      {
+        "body_sha256": "359edf171e1612526f94953755e9ad9cd8eca11b2f907f74da2a0f27a202d7f4",
+        "name": "CONTRACTIONS",
+        "source_end_line": 111,
+        "source_start_line": 64
+      },
+      {
+        "body_sha256": "6f79d5fe41ef9bd2d7143099a24f2c3291693bc5290819efb7dcfda5a73c92de",
+        "name": "ProtocolError",
+        "source_end_line": 115,
+        "source_start_line": 114
+      },
+      {
+        "body_sha256": "d645ee72f23e394e121f129b588b8157cbac3b175aae277aa555fb889276d473",
+        "name": "safe",
+        "source_end_line": 130,
+        "source_start_line": 129
+      },
+      {
+        "body_sha256": "61036b6ea3b0edb1bcd1f6c1993eb4187c8a34ddc51f72ccd00bfd1dd2f73558",
+        "name": "normalize_answer",
+        "source_end_line": 223,
+        "source_start_line": 213
+      },
+      {
+        "body_sha256": "aaf94a621abebd1b18433ee267343830835b40305b64c6be1eecba3f602520b3",
+        "name": "convert_to_list",
+        "source_end_line": 247,
+        "source_start_line": 226
+      },
+      {
+        "body_sha256": "1dd08275679a2f3b096fe20d8634c1498746797c8126b200b7e0bd17027c33ce",
+        "name": "validate_answer_evals",
+        "source_end_line": 258,
+        "source_start_line": 250
+      },
+      {
+        "body_sha256": "e065194316efc8198f5104d8986877c67b741cbde199c5d7337ad30ad2c59854",
+        "name": "official_accuracy",
+        "source_end_line": 284,
+        "source_start_line": 261
+      }
+    ],
+    "source_project_relative": "evaluate_m3vqa_frozen13125_one_time_official_v1.py",
+    "source_sha256": "4947522beccddf468b61e297f3e93bddcbd1c74af8f23f5ab2060fb7fd149ab4"
+  }
+]

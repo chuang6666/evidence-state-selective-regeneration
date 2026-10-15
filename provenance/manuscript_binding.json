@@ -1,0 +1,8 @@
+{
+  "feature_contract": "B3, 65 raw fields, 75 model-input dimensions; not a later P2/B2 research line",
+  "main_tex_sha256": "320c45a15d2ecec2ba9824d3ee6a3b892a68fab12de2ce8262c51030fc319c7b",
+  "manuscript_line": "JIIS v6 scientific text / v7 Figure 1 preview",
+  "projections": "QIDs, labels, numerical scores and flags only. Not raw frozen answers or Gold.",
+  "reference_count": 32,
+  "title": "Evidence-State Risk Estimation for Selective Regeneration in Multimodal Multi-Hop Question Answering"
+}

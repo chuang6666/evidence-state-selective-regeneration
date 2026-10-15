@@ -218,3 +218,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Evidence-State reproduction: private inputs and approved-release boundary.
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+private_review/
+private_validation/
+local-references/
+references/
+rescored/
+reproduced*/
+private_inputs/
+author_private_*/
+.idea/
+.vscode/
+
+# Third-party datasets, checkpoints and raw provider logs are not distributed.
+data/raw/
+raw_data/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.joblib
+api_logs/
+request_logs/
+logs/
+outputs/
+*.tmp
+*.zip

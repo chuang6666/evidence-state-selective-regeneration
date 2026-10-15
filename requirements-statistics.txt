@@ -1,0 +1,2 @@
+# Tested optional offline statistics, not training/provider dependencies.
+numpy==2.3.5

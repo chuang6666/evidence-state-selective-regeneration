@@ -1,0 +1,72 @@
+[
+  {
+    "source_project_relative": "evaluate_mmqa_clean_risk_v2_one_time_official_v1.py",
+    "source_sha256": "4b93519dd88cf05833ee4936cbd391358814a0a305f7cb2872f83d572240a0d5",
+    "candidate_path": "evidence_state_repro/stats_mmqa_historical.py",
+    "body_hash_normalization": "UTF-8 after universal-newline normalization",
+    "functions": [
+      {
+        "name": "exact_mcnemar_p",
+        "source_line": 210,
+        "body_sha256": "85844bed33cd15f9942bc551127691f039178c7d9b66931cc9a6247eb5f8455a"
+      },
+      {
+        "name": "paired_bootstrap_delta",
+        "source_line": 219,
+        "body_sha256": "0f99906bf30c68b6497efe2802d273b8f58da20cb8fe617ed0513074d15d2cf9"
+      }
+    ]
+  },
+  {
+    "source_project_relative": "evaluate_mmqa_dev1096_a0_a4_a6_selector_endpoint_ablation_v1.py",
+    "source_sha256": "5dd040fc8741a88707082e33de813e17704e31921dc7a42dafc3369ecd440c8f",
+    "candidate_path": "evidence_state_repro/stats_controlled_historical.py",
+    "body_hash_normalization": "UTF-8 after universal-newline normalization",
+    "functions": [
+      {
+        "name": "paired_bootstrap_delta",
+        "source_line": 216,
+        "body_sha256": "8f0f52741a70df97c12d29e7d2801803ae1fc9b50f82896da2bf795dff5d53b8"
+      }
+    ]
+  },
+  {
+    "source_project_relative": "evaluate_m3vqa_clean_v2_one_time_official_gold_v1.py",
+    "source_sha256": "19cb53398a563e6e237dc8f05eb3f0549965cd8c0348df7904e897515904bbcd",
+    "candidate_path": "evidence_state_repro/stats_m3_historical.py",
+    "body_hash_normalization": "UTF-8 after universal-newline normalization",
+    "functions": [
+      {
+        "name": "paired_bootstrap_ci",
+        "source_line": 257,
+        "body_sha256": "b46f77a83fc07fb7d2ffd4a964c081a720a070815c6a048360f6ed614766afaa"
+      }
+    ]
+  },
+  {
+    "source_project_relative": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py",
+    "source_sha256": "3dd90508ff49d38e9645b9b175a3bae76091bb9ce985c182202c399bce2383e1",
+    "candidate_path": "evidence_state_repro/stats_g0_historical.py",
+    "body_hash_normalization": "UTF-8 after universal-newline normalization",
+    "functions": [
+      {
+        "name": "paired_bootstrap",
+        "source_line": 588,
+        "body_sha256": "0624f4b9583459fd2b0b4e6642beb8d64844a9c2ff1ad08a2c82090e2aca532c"
+      }
+    ]
+  },
+  {
+    "source_project_relative": "experiments/paper_statistical_audit_20261004/scripts/audit_calculations.py",
+    "source_sha256": "ad68c5549c747e10491810f16ba29594d6b0f987cd39f353b60fb3f2437dd0a4",
+    "candidate_path": "evidence_state_repro/stats_risk_projection.py",
+    "body_hash_normalization": "UTF-8 after universal-newline normalization",
+    "functions": [
+      {
+        "name": "fixed_p",
+        "source_line": 97,
+        "body_sha256": "d12587920e8a821409482a7c3a6e88f9f7b04875f7a6246cb75a7251ef8afe69"
+      }
+    ]
+  }
+]

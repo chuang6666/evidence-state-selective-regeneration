@@ -1,0 +1,21 @@
+{
+  "author_owned_predictions_and_numeric_derivatives_approved": true,
+  "third_party_gold_images_or_weights_redistribution_approved": false,
+  "git_initialized": false,
+  "known_gaps": [
+    "Original M3 B3 selection-runner source is not yet located; the portable helper is a declared replay, not a claimed recovered runner.",
+    "Verifier/checkpoint availability and complete upstream dependency closure require review.",
+    "Historical sources retain local-path assumptions and may include training/provider entry points; do not run them as the offline quickstart.",
+    "A project-wide license has not been selected; third-party Gold/images/weights redistribution remains outside the approved scope.",
+    "Only specified manuscript statistics are reconstructed; consult the v2 validation record. Not all supplementary statistics or upstream inference are covered."
+  ],
+  "license_approved": false,
+  "model_weights_included": false,
+  "public_release_authorized": true,
+  "frozen_author_predictions_included": true,
+  "third_party_gold_raw_images_raw_API_responses_included": false,
+  "state": "AUTHORIZED_SCOPE_LOCAL_VALIDATION_PASSED",
+  "record_scope": "Pre-upload local validation snapshot, not a live remote-publication receipt. See the repository commit history for publication.",
+  "upload_authorized": true,
+  "upload_performed": false
+}

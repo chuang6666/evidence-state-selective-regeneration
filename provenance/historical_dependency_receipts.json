@@ -1,0 +1,13 @@
+{
+  "receipts": {
+    "outputs/mmqa_clean_risk_v2_t4_rebuild_v1/t4_deterministic_rebuild_summary_v1.json": {
+      "joblib": "1.5.3",
+      "numpy": "2.0.2",
+      "platform": "Windows-10-10.0.19041-SP0",
+      "python": "3.9.25 (main, Nov  3 2025, 22:44:01) [MSC v.1929 64 bit (AMD64)]",
+      "scikit_learn": "1.6.1",
+      "scipy": "1.13.1"
+    }
+  },
+  "scope": "Receipts retain their source-stage association. Not a universal environment lock or a new clean-install test."
+}

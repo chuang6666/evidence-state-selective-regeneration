@@ -1,0 +1,110 @@
+{
+  "controlled": {
+    "A0": {
+      "em_percent": 42.88321167883212,
+      "token_f1_percent": 48.96513482728534
+    },
+    "A4": {
+      "em_percent": 42.42700729927007,
+      "token_f1_percent": 48.5154476531456
+    },
+    "A6": {
+      "em_percent": 42.33576642335766,
+      "token_f1_percent": 48.4559238436218
+    }
+  },
+  "dev_oof": {
+    "CLEAN_B2": {
+      "error_precision_percent": 91.36363636363636,
+      "errors": 201,
+      "selected": 220
+    },
+    "CLEAN_B3": {
+      "error_precision_percent": 91.36363636363636,
+      "errors": 201,
+      "selected": 220
+    },
+    "G0": {
+      "error_precision_percent": 86.36363636363636,
+      "errors": 190,
+      "selected": 220
+    }
+  },
+  "locked1341": {
+    "B3-Refit": {
+      "Net": 47,
+      "R2W": 15,
+      "W2R": 62,
+      "em_percent": 51.30499627143922,
+      "token_f1_percent": 58.5258363228514
+    },
+    "G0-20": {
+      "Net": 45,
+      "R2W": 14,
+      "W2R": 59,
+      "em_percent": 51.1558538404176,
+      "token_f1_percent": 58.587815363477866
+    },
+    "Initial": {
+      "em_percent": 47.800149142431025,
+      "token_f1_percent": 54.99891914604917
+    },
+    "Instability-20": {
+      "Net": 67,
+      "R2W": 16,
+      "W2R": 83,
+      "em_percent": 52.79642058165548,
+      "token_f1_percent": 60.67283003663193
+    },
+    "Random-20260822": {
+      "em_percent": 50.63385533184191,
+      "token_f1_percent": 58.03240640240499
+    },
+    "Random-20260823": {
+      "em_percent": 49.29157345264728,
+      "token_f1_percent": 57.10446738378325
+    },
+    "Random-20260824": {
+      "em_percent": 49.96271439224459,
+      "token_f1_percent": 57.50382080458635
+    },
+    "Random-20260825": {
+      "em_percent": 49.515287099179716,
+      "token_f1_percent": 57.32955877387467
+    },
+    "Random-20260826": {
+      "em_percent": 49.515287099179716,
+      "token_f1_percent": 56.8579087501137
+    },
+    "VC-20": {
+      "Net": 102,
+      "R2W": 20,
+      "W2R": 122,
+      "em_percent": 55.40641312453393,
+      "token_f1_percent": 63.63706572936254
+    }
+  },
+  "m3": {
+    "B3-Refit": {
+      "Net": 151,
+      "R2W": 15,
+      "W2R": 166,
+      "answer_list_accuracy_percent": 31.16265158065523
+    },
+    "Initial": {
+      "answer_list_accuracy_percent": 28.529968446741556
+    },
+    "Random-20": {
+      "Net": 205,
+      "R2W": 135,
+      "W2R": 340,
+      "answer_list_accuracy_percent": 30.34840481528242
+    }
+  },
+  "random20_aggregate": {
+    "em_mean_percent": 49.78374347501864,
+    "em_sample_sd_percent": 0.5341090105733026,
+    "f1_mean_percent": 57.365632422952636,
+    "f1_sample_sd_percent": 0.4446839839415382
+  }
+}

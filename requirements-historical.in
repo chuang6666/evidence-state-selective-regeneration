@@ -1,0 +1,11 @@
+# Inventory of third-party imports in archived historical sources.
+# NOT a lockfile and NOT a validated unified training environment.
+# Historical runtime receipts are documented separately.
+numpy
+scipy
+scikit-learn
+joblib
+torch
+transformers
+requests
+tqdm

@@ -1,0 +1,252 @@
+{
+  "blocked_source_count": 0,
+  "direct_local_import_closure_only": true,
+  "dynamic_references_require_separate_review": [
+    {
+      "referenced_basename": "evaluate_m3vqa_clean_v2_one_time_official_gold_v1.py",
+      "source": "compare_m3vqa_clean_vs_random20_paired_bootstrap_v1.py"
+    },
+    {
+      "referenced_basename": "evaluate_m3vqa_frozen13125_one_time_official_v1.py",
+      "source": "evaluate_m3vqa_clean_v2_one_time_official_gold_v1.py"
+    },
+    {
+      "referenced_basename": "run_eval.py",
+      "source": "evaluate_m3vqa_frozen13125_one_time_official_v1.py"
+    },
+    {
+      "referenced_basename": "audit_mmqa_v3_locked1341_frozen_boundary_v1_1.py",
+      "source": "evaluate_mmqa_clean_risk_v2_one_time_official_v1.py"
+    },
+    {
+      "referenced_basename": "audit_mmqa_v3_locked1341_frozen_boundary_v1_1.py",
+      "source": "evaluate_mmqa_dev1096_a0_a4_a6_selector_endpoint_ablation_v1.py"
+    },
+    {
+      "referenced_basename": "audit_mmqa_v3_locked1341_frozen_boundary_v1_1.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v3_heldout1341_final_plain_regen_qwen37plus_v1.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v2_fresh_pilot40_b_qwen37plus.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v3_random20_matched_qwen37plus_v1.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_transition_evidence_recompose_abc_pilot_qwen37plus_v1.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v3_b0_only15_exact_protocol_qwen37plus_v1_3.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "build_and_freeze_mmqa_v3_b0_only15_exact_protocol_jobs_v1_1.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_clean_risk_v2_dev1096_feature_generation_v1.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "score_and_freeze_mmqa_v3_b0_locked1341_top20_v1.py",
+      "source": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_g0_20_endpoint.py",
+      "source": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v3_heldout1341_final_plain_regen_qwen37plus_v1.py",
+      "source": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v2_fresh_pilot40_b_qwen37plus.py",
+      "source": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "referenced_basename": "build_and_freeze_mmqa_v3_b0_only15_exact_protocol_jobs_v1_1.py",
+      "source": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v3_random20_matched_qwen37plus_v1.py",
+      "source": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_transition_evidence_recompose_abc_pilot_qwen37plus_v1.py",
+      "source": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_v3_b0_only15_exact_protocol_qwen37plus_v1_3.py",
+      "source": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "referenced_basename": "run_g0_20_endpoint.py",
+      "source": "experiments/mmqa_selector_outcome_decomposition/run_decomposition.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_transition_answer_risk_oof_v1_1.py",
+      "source": "run_mmqa_clean_risk_v2_dev1096_answer_risk_oof_v1.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_clean_risk_v2_dev1096_answer_risk_oof_v1.py",
+      "source": "run_mmqa_clean_risk_v2_final_full_dev_locked_selection_v1.py"
+    },
+    {
+      "referenced_basename": "run_mmqa_clean_risk_v2_dev1096_feature_generation_v1.py",
+      "source": "run_mmqa_clean_risk_v2_final_full_dev_locked_selection_v1.py"
+    }
+  ],
+  "sources": [
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/audit_mmqa_v3_locked1341_frozen_boundary_v1_1.py",
+      "sha256": "16c3bb79bf93db73381977a2a032f6c54771f7bbf7e1ee19cb20d4713a87c85b",
+      "source_project_relative": "audit_mmqa_v3_locked1341_frozen_boundary_v1_1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/compare_m3vqa_clean_vs_random20_paired_bootstrap_v1.py",
+      "sha256": "cf4805277f8d91692f718d90cc9d22e9164a4c63f3e82912d67b24930dca1976",
+      "source_project_relative": "compare_m3vqa_clean_vs_random20_paired_bootstrap_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/evaluate_m3vqa_clean_v2_one_time_official_gold_v1.py",
+      "sha256": "19cb53398a563e6e237dc8f05eb3f0549965cd8c0348df7904e897515904bbcd",
+      "source_project_relative": "evaluate_m3vqa_clean_v2_one_time_official_gold_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/evaluate_m3vqa_frozen13125_one_time_official_v1.py",
+      "sha256": "4947522beccddf468b61e297f3e93bddcbd1c74af8f23f5ab2060fb7fd149ab4",
+      "source_project_relative": "evaluate_m3vqa_frozen13125_one_time_official_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/evaluate_mmqa_clean_risk_v2_one_time_official_v1.py",
+      "sha256": "4b93519dd88cf05833ee4936cbd391358814a0a305f7cb2872f83d572240a0d5",
+      "source_project_relative": "evaluate_mmqa_clean_risk_v2_one_time_official_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/evaluate_mmqa_dev1096_a0_a4_a6_selector_endpoint_ablation_v1.py",
+      "sha256": "5dd040fc8741a88707082e33de813e17704e31921dc7a42dafc3369ecd440c8f",
+      "source_project_relative": "evaluate_mmqa_dev1096_a0_a4_a6_selector_endpoint_ablation_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py",
+      "sha256": "3dd90508ff49d38e9645b9b175a3bae76091bb9ce985c182202c399bce2383e1",
+      "source_project_relative": "experiments/mmqa_g0_20_endpoint/run_g0_20_endpoint.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py",
+      "sha256": "ca77a89715865aa66218c6ab1e680e89847e302216bfadcae041a0306261b512",
+      "source_project_relative": "experiments/mmqa_instability20_endpoint/run_instability20_endpoint.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/experiments/mmqa_selector_outcome_decomposition/run_decomposition.py",
+      "sha256": "773add1e491c6dd7b2e8ce494d06b561fe9d2552fca488cd85635b89c3e399cb",
+      "source_project_relative": "experiments/mmqa_selector_outcome_decomposition/run_decomposition.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/instability20_surface_normalization_v1.py",
+      "sha256": "7ff59937622f5b8a0f1713f87da97c3bce66dbeb2f911fae6ae58f4bbad0ddee",
+      "source_project_relative": "instability20_surface_normalization_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_clean_risk_v2_dev1096_answer_risk_oof_v1.py",
+      "sha256": "625a5526a839294c529f39265883986a0ba6526730cd40cd746c00a759871c03",
+      "source_project_relative": "run_mmqa_clean_risk_v2_dev1096_answer_risk_oof_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_clean_risk_v2_dev1096_feature_generation_v1.py",
+      "sha256": "7a9bf4d039287f4cacde14e06ce4b1d7cad4cd0aba16a4312b5318dc0ff95b47",
+      "source_project_relative": "run_mmqa_clean_risk_v2_dev1096_feature_generation_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_clean_risk_v2_dev1096_verifier_inference_v1.py",
+      "sha256": "15464bfaf27a8345a007393abd1ed87a863d26e841fd0ade7c04fa7ea032c4d1",
+      "source_project_relative": "run_mmqa_clean_risk_v2_dev1096_verifier_inference_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_clean_risk_v2_final_full_dev_locked_selection_v1.py",
+      "sha256": "2e191e0cf9aee82fea8f0b5431909df92c1cfc6645306a59a73a3f6e185444aa",
+      "source_project_relative": "run_mmqa_clean_risk_v2_final_full_dev_locked_selection_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_transition_topology_tfidf_oof_v1.py",
+      "sha256": "efb773a5316e39d39290814b6c004bf6028f81be92116cb68582a920dbd3b958",
+      "source_project_relative": "run_mmqa_transition_topology_tfidf_oof_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_v6_1_topology_routed_raw_visual.py",
+      "sha256": "cad2d89ffaa3478b31b71c618143c5cb2d2eec191ede9df39d5d504a559d6668",
+      "source_project_relative": "run_mmqa_v6_1_topology_routed_raw_visual.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/train_mmqa_transition_causal_verifier_v2_1_pairwise_fixed.py",
+      "sha256": "d89438d038325c7159ecd792dc68bde2beb909a1d3240a7c66151bd44e56778b",
+      "source_project_relative": "train_mmqa_transition_causal_verifier_v2_1_pairwise_fixed.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_natural_frozen_verifier_v2_inference_v1.py",
+      "sha256": "4bc2b1bb58956fb0030512670d89ae6bd55958731df52a28e66c6881192db669",
+      "source_project_relative": "run_mmqa_natural_frozen_verifier_v2_inference_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_t4_operator_aware_verifier_v1_fixed.py",
+      "sha256": "15ede8699954134c319dbcb212c3137a10aa16c13008dd60a15bb7adaaaf1039",
+      "source_project_relative": "run_mmqa_t4_operator_aware_verifier_v1_fixed.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_verifier_v3_t1_t2_natural_adapter_corrected_v2.py",
+      "sha256": "735848237d02986b304b08d154eda5963ed6f8fadab619abb7db9bf690aa6e5f",
+      "source_project_relative": "run_mmqa_verifier_v3_t1_t2_natural_adapter_corrected_v2.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_clean_risk_v2_dev1096_expected_natural_explanatory_ablation_v1.py",
+      "sha256": "baf1e4e3ec792a0f2b8e7f9bf96b1b3a2cdc5e9fad7d290d41cdc0c77eeb89f8",
+      "source_project_relative": "run_mmqa_clean_risk_v2_dev1096_expected_natural_explanatory_ablation_v1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/run_mmqa_transition_answer_risk_oof_v1_1.py",
+      "sha256": "beecd7053bd41ca122930d15075b1ff151550b8a12b9c80f44548db45d8fdff2",
+      "source_project_relative": "run_mmqa_transition_answer_risk_oof_v1_1.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/experiments/mmqa_instability20_endpoint/analyze_selector_gap.py",
+      "sha256": "001595851b5c17b3f20a856e4b91731d8c1ce09327c589272509d3ae020a3043",
+      "source_project_relative": "experiments/mmqa_instability20_endpoint/analyze_selector_gap.py"
+    },
+    {
+      "byte_identical": true,
+      "candidate_path": "historical/experiments/paper_statistical_audit_20261004/scripts/audit_calculations.py",
+      "sha256": "ad68c5549c747e10491810f16ba29594d6b0f987cd39f353b60fb3f2437dd0a4",
+      "source_project_relative": "experiments/paper_statistical_audit_20261004/scripts/audit_calculations.py"
+    }
+  ]
+}

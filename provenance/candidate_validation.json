@@ -1,0 +1,66 @@
+{
+  "version": 2,
+  "state": "LOCAL_VALIDATION_PASSED_NOT_UPLOADED",
+  "python_version": "3.12.14",
+  "core_runtime": "Existing no-pip/no-third-party venv, Python 3.12.14; new portable commands tested without provider credentials.",
+  "statistical_runtime": "Bundled Python with NumPy; not a new pip installation test.",
+  "python_files_parse": 40,
+  "unit_test_log_summary": "18 tests in 0.040s\n\nOK",
+  "frozen_replay_status": "PASS_FROZEN_SCORE_AGGREGATION_AND_SELECTION_REPLAY",
+  "reference_preparation": {
+    "status": "LOCAL_REFERENCE_FILES_PREPARED_NOT_FOR_UPLOAD",
+    "populations": {
+      "locked1341": 1341,
+      "dev1096_controlled": 1096,
+      "m3vqa13125": 13125
+    },
+    "provider_file_sha256": {
+      "mmqa": "2e348ca574b2dc368e84671709689070f943a59f2e08e6b6e374705deb712d31",
+      "m3": "019d7bd1d6dae5e8db9bf763e5b5822adb15a0fb92eadcc82f510d6e7c64a24a"
+    },
+    "rule": "MMQA original reference members; M3 answer_evals copied unchanged, QID=data_id for raw M3 questions."
+  },
+  "answer_rescoring": {
+    "status": "PASS_ANSWER_LEVEL_RESCORING",
+    "datasets": {
+      "locked1341": {
+        "qids": 1341,
+        "methods": 10,
+        "score_mismatches": 0,
+        "reference_file_sha256": "f1f12b8cb4e9fcea4adb7ba9a071b4d84e193320438930844dd1952f798483a9"
+      },
+      "dev1096_controlled": {
+        "qids": 1096,
+        "methods": 4,
+        "score_mismatches": 0,
+        "reference_file_sha256": "074c4e161ce61f8b6fcf64d9dbfade7d85382d4820556244c215349e30e903e7"
+      },
+      "m3vqa13125": {
+        "qids": 13125,
+        "methods": 3,
+        "score_mismatches": 0,
+        "reference_file_sha256": "9468e9c81a3c16f798537fa350ead029bd862acd40b0e8780aa9012a6e0c9c0d"
+      }
+    },
+    "score_files_sha256": {
+      "locked1341.jsonl": "5f3b0c4d54b8a66884135a05c9c68d4b3ca8d1b4ab43cf03cdfa045521fa735a",
+      "dev1096_controlled.jsonl": "573a96a6ca8fbd5ca10fbf36da7b2cf2e1e148e409aa1f758e5a315c0948b2fd",
+      "m3vqa13125.jsonl": "bc6bc32aefd2a697222576df2fcbfe79fb4082898833ee95329324ee9bcf61b3"
+    },
+    "boundary": "Fixed historical outputs rescored with the frozen endpoint implementations; no new inference or training.",
+    "gold_redistributed_by_this_command": false
+  },
+  "main_tables_status": "PASS_MAIN_NUMERIC_TABLE_AGGREGATION",
+  "specified_statistics": {
+    "status": "PASS_SPECIFIED_MANUSCRIPT_CIS_AND_TESTS",
+    "metric_CI_checks": 24,
+    "numpy_version": "2.3.5"
+  },
+  "no_Gold_images_weights_or_API_logs_in_upload_directory": true,
+  "sensitive_scan": "No findings under recorded limited rules; final upload inventory separately reviewed.",
+  "original_input_files_unchanged": true,
+  "training_executed": false,
+  "generation_API_executed": false,
+  "uploaded": false,
+  "scope_approval": "User confirmed own code, frozen predictions and numeric derivatives; no third-party Gold/images/weights or license selection."
+}

@@ -1,0 +1,3 @@
+# Preserve the exact SHA256-checked artifact and historical-source bytes.
+# Automatic CRLF/LF conversion would invalidate the reproduction manifest.
+* -text

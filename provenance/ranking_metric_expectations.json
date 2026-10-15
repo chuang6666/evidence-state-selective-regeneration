@@ -1,0 +1,81 @@
+{
+  "explanatory": {
+    "A0": {
+      "average_precision": 0.8133297663330836,
+      "errors": 190,
+      "roc_auc": 0.7458745757918552
+    },
+    "A1": {
+      "average_precision": 0.8215039353805198,
+      "errors": 190,
+      "roc_auc": 0.7490879524886879
+    },
+    "A2": {
+      "average_precision": 0.8261532374769577,
+      "errors": 197,
+      "roc_auc": 0.7542138009049774
+    },
+    "A3": {
+      "average_precision": 0.8301392009491096,
+      "errors": 198,
+      "roc_auc": 0.7580210690045249
+    },
+    "A4": {
+      "average_precision": 0.8255116522040151,
+      "errors": 199,
+      "roc_auc": 0.7547652714932127
+    },
+    "A5": {
+      "average_precision": 0.8302188424292294,
+      "errors": 197,
+      "roc_auc": 0.7574519230769232
+    },
+    "A6": {
+      "average_precision": 0.8277121860590395,
+      "errors": 201,
+      "roc_auc": 0.759993636877828
+    },
+    "S1": {
+      "average_precision": 0.8252789962151986,
+      "errors": 199,
+      "roc_auc": 0.7541537047511311
+    },
+    "S2": {
+      "average_precision": 0.8284249835035221,
+      "errors": 196,
+      "roc_auc": 0.7574130373303167
+    }
+  },
+  "formal": {
+    "CLEAN_B0": {
+      "average_precision": 0.8207749208852329,
+      "errors": 189,
+      "roc_auc": 0.7507565045248868
+    },
+    "CLEAN_B1": {
+      "average_precision": 0.8252135364149991,
+      "errors": 195,
+      "roc_auc": 0.7515236142533936
+    },
+    "CLEAN_B2": {
+      "average_precision": 0.8261420641024353,
+      "errors": 201,
+      "roc_auc": 0.757543834841629
+    },
+    "CLEAN_B3": {
+      "average_precision": 0.8277121860590395,
+      "errors": 201,
+      "roc_auc": 0.759993636877828
+    },
+    "CLEAN_B4": {
+      "average_precision": 0.757909371163374,
+      "errors": 182,
+      "roc_auc": 0.6826746323529411
+    },
+    "G0": {
+      "average_precision": 0.8133297663330836,
+      "errors": 190,
+      "roc_auc": 0.7458745757918552
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "scope": "Frozen QID/transition/localization mapping only; source evidence and Gold are not redistributed.",
+  "cases": [
+    {"qid": "b3c300853e64ff617a565c8a0a6d71cb", "transition": "W2R", "localized_transition": "T1", "forced": false},
+    {"qid": "c1eabd2bd3a6406334a84f3ca59a70fc", "transition": "W2W", "localized_transition": "T3", "forced": false},
+    {"qid": "195043973a0b8361d386a6b430167547", "transition": "R2W", "localized_transition": "T2", "forced": false}
+  ]
+}
