@@ -6,6 +6,14 @@ Answering*. The scientific binding is the JIIS v6 text / v7 Figure 1 preview,
 with B3's **65 allowed raw fields and 75 vectorized dimensions**, not the later
 P2 experimental line.
 
+## Manuscript linkage (16 October 2026)
+
+The v6/v7 labels above identify the historical manuscript and figure snapshots
+used to prepare this release. The JIIS submission package v15 cites commit
+`85d1ad5` for frozen-output reproduction. The documented scope covers Tables 2–7
+and the specified statistical analyses. It does not include complete model
+retraining or renewed commercial-model answer generation.
+
 This version adds author-approved frozen predictions and numeric projections.
 **Original benchmark reference answers, images, source evidence, complete API
 responses, credentials and model weights are not redistributed here.** No
