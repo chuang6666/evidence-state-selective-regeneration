@@ -2,9 +2,8 @@
 
 Code and frozen-output reproduction materials for *Evidence-State Risk
 Estimation for Selective Regeneration in Multimodal Multi-Hop Question
-Answering*. The scientific binding is the JIIS v6 text / v7 Figure 1 preview,
-with B3's **65 allowed raw fields and 75 vectorized dimensions**, not the later
-P2 experimental line.
+Answering*. The frozen B3 configuration uses **65 allowed raw fields and
+75 vectorized dimensions** and excludes the later P2 experimental line.
 
 ## KAIS manuscript linkage (23 October 2026)
 
