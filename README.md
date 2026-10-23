@@ -6,13 +6,29 @@ Answering*. The scientific binding is the JIIS v6 text / v7 Figure 1 preview,
 with B3's **65 allowed raw fields and 75 vectorized dimensions**, not the later
 P2 experimental line.
 
-## Manuscript linkage (16 October 2026)
+## KAIS manuscript linkage (23 October 2026)
 
-The v6/v7 labels above identify the historical manuscript and figure snapshots
-used to prepare this release. The JIIS submission package v15 cites commit
-`85d1ad5` for frozen-output reproduction. The documented scope covers Tables 2–7
-and the specified statistical analyses. It does not include complete model
-retraining or renewed commercial-model answer generation.
+The current KAIS manuscript cites validated commit `85d1ad5`
+for frozen-output reproduction. The frozen experimental results
+and B3 configuration remain unchanged: 65 allowed raw feature
+fields and 75 vectorized dimensions.
+
+Historical output filenames and table numbers are preserved.
+Their correspondence with the current KAIS manuscript is:
+
+- Historical Table 2 → KAIS Table 3: Dev1096 OOF comparison and model selection.
+- Historical Table 3 → KAIS Table 4: MMQA locked1341 endpoints and Random-20 summary.
+- Historical Table 4 → KAIS Table 5: Selected initial errors and regeneration yield.
+- Historical Table 5 → KAIS Table 6: M3-VQA zero-tuning transfer.
+- Historical Table 6 → KAIS Table 7: Feature ablation and combination analysis.
+- Historical Table 7 → KAIS Table 8: Controlled Dev1096 endpoints.
+- Historical Table 8 → KAIS Table 9: Qualitative-case mapping only.
+
+This documentation update does not change frozen data, predictions,
+scores, selections, or reproduction scripts. Reproduction coverage
+includes the documented frozen-output evaluation and statistical
+analyses, not complete model retraining, renewed commercial-model
+answer generation, or every supplementary result.
 
 This version adds author-approved frozen predictions and numeric projections.
 **Original benchmark reference answers, images, source evidence, complete API
