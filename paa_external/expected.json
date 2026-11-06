@@ -1,0 +1,210 @@
+{
+  "Suff-only": {
+    "dev": {
+      "selected": 220,
+      "errors": 158,
+      "error_precision_percent": 71.81818181818181,
+      "error_recall_percent": 23.235294117647058,
+      "AP_percent": 71.08135913464496,
+      "ROC_AUC_percent": 66.36453619909501
+    },
+    "locked": {
+      "point": {
+        "n": 1341,
+        "em_count": 678,
+        "em": 0.5055928411633109,
+        "f1": 0.580741291922847,
+        "wrong_to_right": 62,
+        "right_to_wrong": 25,
+        "net": 37,
+        "selected_N": 269,
+        "selected_initial_errors": 176
+      },
+      "paired": {
+        "em": {
+          "a_better_discordant": 44,
+          "b_better_discordant": 54,
+          "mcnemar_exact_two_sided_p": 0.36335418766405314,
+          "paired_bootstrap": {
+            "delta": -0.007457121551081283,
+            "delta_pp": -0.7457121551081283,
+            "ci95_low": -0.02162565249813572,
+            "ci95_high": 0.007457121551081283,
+            "ci95_low_pp": -2.162565249813572,
+            "ci95_high_pp": 0.7457121551081283,
+            "repetitions": 10000,
+            "seed": 20260828
+          }
+        },
+        "token_f1": {
+          "paired_bootstrap": {
+            "delta": -0.004517071305667539,
+            "delta_pp": -0.45170713056675393,
+            "ci95_low": -0.01913436658904755,
+            "ci95_high": 0.009725324577883927,
+            "ci95_low_pp": -1.9134366589047551,
+            "ci95_high_pp": 0.9725324577883927,
+            "repetitions": 10000,
+            "seed": 20260829
+          }
+        }
+      }
+    }
+  },
+  "G12+Suff-LR": {
+    "dev": {
+      "selected": 220,
+      "errors": 194,
+      "error_precision_percent": 88.18181818181819,
+      "error_recall_percent": 28.529411764705884,
+      "AP_percent": 83.59586400268621,
+      "ROC_AUC_percent": 78.1914592760181
+    },
+    "locked": {
+      "point": {
+        "n": 1341,
+        "em_count": 695,
+        "em": 0.5182699478001491,
+        "f1": 0.5970027772053899,
+        "wrong_to_right": 74,
+        "right_to_wrong": 20,
+        "net": 54,
+        "selected_N": 269,
+        "selected_initial_errors": 218
+      },
+      "paired": {
+        "em": {
+          "a_better_discordant": 41,
+          "b_better_discordant": 34,
+          "mcnemar_exact_two_sided_p": 0.48868297090314333,
+          "paired_bootstrap": {
+            "delta": 0.005219985085756898,
+            "delta_pp": 0.5219985085756897,
+            "ci95_low": -0.006711409395973154,
+            "ci95_high": 0.017897091722595078,
+            "ci95_low_pp": -0.6711409395973155,
+            "ci95_high_pp": 1.7897091722595078,
+            "repetitions": 10000,
+            "seed": 20260828
+          }
+        },
+        "token_f1": {
+          "paired_bootstrap": {
+            "delta": 0.011744413976875312,
+            "delta_pp": 1.1744413976875312,
+            "ci95_low": -0.00041262518667786676,
+            "ci95_high": 0.023628223871676953,
+            "ci95_low_pp": -0.04126251866778668,
+            "ci95_high_pp": 2.362822387167695,
+            "repetitions": 10000,
+            "seed": 20260829
+          }
+        }
+      }
+    }
+  },
+  "MiniCheck-only": {
+    "dev": {
+      "selected": 220,
+      "errors": 142,
+      "error_precision_percent": 64.54545454545455,
+      "error_recall_percent": 20.88235294117647,
+      "AP_percent": 68.45434915259702,
+      "ROC_AUC_percent": 63.29486001131222
+    },
+    "locked": {
+      "point": {
+        "n": 1341,
+        "em_count": 657,
+        "em": 0.4899328859060403,
+        "f1": 0.5669186141306612,
+        "wrong_to_right": 47,
+        "right_to_wrong": 31,
+        "net": 16,
+        "selected_N": 269,
+        "selected_initial_errors": 179
+      },
+      "paired": {
+        "em": {
+          "a_better_discordant": 40,
+          "b_better_discordant": 71,
+          "mcnemar_exact_two_sided_p": 0.004195534185394854,
+          "paired_bootstrap": {
+            "delta": -0.023117076808351976,
+            "delta_pp": -2.3117076808351977,
+            "ci95_low": -0.03877703206562267,
+            "ci95_high": -0.007457121551081283,
+            "ci95_low_pp": -3.877703206562267,
+            "ci95_high_pp": -0.7457121551081283,
+            "repetitions": 10000,
+            "seed": 20260828
+          }
+        },
+        "token_f1": {
+          "paired_bootstrap": {
+            "delta": -0.018339749097853242,
+            "delta_pp": -1.8339749097853242,
+            "ci95_low": -0.033446252168369925,
+            "ci95_high": -0.0035038120859160905,
+            "ci95_low_pp": -3.3446252168369925,
+            "ci95_high_pp": -0.35038120859160904,
+            "repetitions": 10000,
+            "seed": 20260829
+          }
+        }
+      }
+    }
+  },
+  "G12+MiniCheck-LR": {
+    "dev": {
+      "selected": 220,
+      "errors": 194,
+      "error_precision_percent": 88.18181818181819,
+      "error_recall_percent": 28.529411764705884,
+      "AP_percent": 82.75243916389165,
+      "ROC_AUC_percent": 76.38433257918552
+    },
+    "locked": {
+      "point": {
+        "n": 1341,
+        "em_count": 697,
+        "em": 0.5197613721103654,
+        "f1": 0.5921131833633022,
+        "wrong_to_right": 71,
+        "right_to_wrong": 15,
+        "net": 56,
+        "selected_N": 269,
+        "selected_initial_errors": 215
+      },
+      "paired": {
+        "em": {
+          "a_better_discordant": 34,
+          "b_better_discordant": 25,
+          "mcnemar_exact_two_sided_p": 0.2975952082844287,
+          "paired_bootstrap": {
+            "delta": 0.006711409395973154,
+            "delta_pp": 0.6711409395973155,
+            "ci95_low": -0.0044742729306487695,
+            "ci95_high": 0.017897091722595078,
+            "ci95_low_pp": -0.44742729306487694,
+            "ci95_high_pp": 1.7897091722595078,
+            "repetitions": 10000,
+            "seed": 20260828
+          }
+        },
+        "token_f1": {
+          "paired_bootstrap": {
+            "delta": 0.00685482013478772,
+            "delta_pp": 0.685482013478772,
+            "ci95_low": -0.0038175051030707257,
+            "ci95_high": 0.01724526903420335,
+            "ci95_low_pp": -0.3817505103070726,
+            "ci95_high_pp": 1.724526903420335,
+            "repetitions": 10000,
+            "seed": 20260829
+          }
+        }
+      }
+    }
+  }
+}

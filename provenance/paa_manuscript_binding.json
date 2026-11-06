@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "release_line": "PAA final closure",
+  "title": "Evidence-State Risk Estimation for Selective Regeneration in Multimodal Multi-Hop Question Answering",
+  "journal": "Pattern Analysis and Applications",
+  "reviewed_version_date": "2026-11-06",
+  "binding_scope": "Exact PDF versions audited before publication of this extension. Later availability or declaration edits require their own file hashes.",
+  "main": {
+    "file": "PAA_English_Main_Final.pdf",
+    "pages": 23,
+    "sha256": "b2666515cf71d2f91aed7c7a8a963b4d005b7225e6a4a8b03ef2378aeb126b61",
+    "table_scope": "Tables 1-9; external endpoint combinations also in Section 4.3.2"
+  },
+  "supplement": {
+    "file": "ESM_1.pdf",
+    "pages": 29,
+    "sha256": "4e27d43f371346e6055451a67ea6b33f69dcae92b33e790ef98ba3032337d476",
+    "table_scope": "Tables S1-S17; external endpoints and paired comparisons in Section S6.2"
+  },
+  "base_public_commit": "4c435de79c782ee17df476e8b79a2f95bcd09d2d",
+  "historical_manuscript_binding": "provenance/manuscript_binding.json",
+  "mapping": "docs/PAA_MANUSCRIPT_MAPPING.md",
+  "external_replay": "paa_external/replay.py",
+  "pdfs_in_repository": false
+}

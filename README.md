@@ -5,15 +5,24 @@ Estimation for Selective Regeneration in Multimodal Multi-Hop Question
 Answering*. The frozen B3 configuration uses **65 allowed raw fields and
 75 vectorized dimensions** and excludes the later P2 experimental line.
 
-## KAIS manuscript linkage (23 October 2026)
+## Current manuscript mapping (PAA)
 
-The current KAIS manuscript cites validated commit `85d1ad5`
+The [PAA manuscript and supplementary mapping](docs/PAA_MANUSCRIPT_MAPPING.md)
+and the [manuscript binding](provenance/paa_manuscript_binding.json)
+identify the reviewed 23-page main manuscript and its 29-page
+Online Resource 1. The [external replay](paa_external/README.md)
+covers Suff, MiniCheck and both G12 combinations from frozen numerical
+records, including the paired endpoint checks.
+
+## Historical KAIS manuscript linkage (23 October 2026)
+
+The October 2026 KAIS manuscript cited validated commit `85d1ad5`
 for frozen-output reproduction. The frozen experimental results
 and B3 configuration remain unchanged: 65 allowed raw feature
 fields and 75 vectorized dimensions.
 
 Historical output filenames and table numbers are preserved.
-Their correspondence with the current KAIS manuscript is:
+Their correspondence with that KAIS manuscript is:
 
 - Historical Table 2 → KAIS Table 3: Dev1096 OOF comparison and model selection.
 - Historical Table 3 → KAIS Table 4: MMQA locked1341 endpoints and Random-20 summary.
@@ -29,7 +38,7 @@ includes the documented frozen-output evaluation and statistical
 analyses, not complete model retraining, renewed commercial-model
 answer generation, or every supplementary result.
 
-This version adds author-approved frozen predictions and numeric projections.
+The historical release added author-approved frozen predictions and numeric projections.
 **Original benchmark reference answers, images, source evidence, complete API
 responses, credentials and model weights are not redistributed here.** No
 project-wide license has been selected on the authors' behalf.
@@ -38,9 +47,10 @@ project-wide license has been selected on the authors' behalf.
 
 - Reaggregate the six formal OOF variants and nine explanatory variants:
   Error Precision/Recall at Top-220, AP and ROC-AUC.
-- Reproduce main Tables 2–7 from frozen scores, including all reported
-  comparators and five fixed Random-20 assignments, sample SDs, selected
-  errors, repair yields and strict W2R/R2W/Net.
+- Reproduce historical table outputs 2–7 from frozen scores, including the
+  original released comparators, five fixed Random-20 assignments, sample SDs,
+  selected errors, repair yields and strict W2R/R2W/Net. See the PAA mapping
+  above for coverage of the revised manuscript.
 - Independently rescore frozen MMQA and M3-VQA answers after obtaining the
   original reference data from their providers.
 - Reconstruct the **specified main-text CIs/tests** using original pure
@@ -61,6 +71,7 @@ Use Python 3.10+. These commands require only the standard library:
 python -m unittest discover -s tests -v
 python -m evidence_state_repro
 python -m evidence_state_repro tables --output-dir ../reproduced-saved-tables
+python paa_external/replay.py
 ```
 
 SHA256s are checked before replay. Output directories must be new/empty and
@@ -103,6 +114,12 @@ Random-20 is averaged within QID before paired resampling. Covered checks are
 listed in `provenance/statistics_expectations.json`; unrelated SI statistics
 are not implied validated.
 
+The external paired checks use the standard library:
+
+```bash
+python paa_external/replay.py --statistics
+```
+
 ## Files and provenance
 
 - `frozen_predictions/`: QIDs and frozen method answer values only.
@@ -128,5 +145,8 @@ validated by this workflow. Original M3 B3 runner provenance is incomplete;
 old B2/P2 code is not substituted. Case score transitions are linked by QID,
 but complete source evidence and all supplementary statistics are not bundled.
 
-Read `RELEASE_STATUS.json` and `provenance/candidate_validation.json` for actual
-state. No visibility change, license grant, DOI or release tag is implied.
+See [this revision's inventory](RELEASE_STATUS.json), the
+[historical status snapshot](provenance/historical_release_status.json),
+and the [original local validation record](provenance/candidate_validation.json).
+The current public revision is determined by the repository's Git
+references. No license grant, DOI or release tag is implied.
